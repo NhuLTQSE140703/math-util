@@ -27,7 +27,7 @@ public class MathUtility {
             return 1; //0!, 1! = 1
         }
         
-        long result = 0; //giả bộ
+        long result = 1; //XANH LOCAL VÀ SERVER //giả bộ
         for(int i = 2; i<=n; i++){
             result *= i;
         }
